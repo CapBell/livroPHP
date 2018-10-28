@@ -26,7 +26,7 @@
 	$palavras[] = 'Jéferson Araújo';
 	$palavras[] = 'José da Conceição';
 
-	//$r = array_map(callback, arr1)
-	$r = array_map($remove_acento, $palavras);
+	$r = array_map(callback, arr1)
+	//$r = array_map($remove_acento, $palavras);
 	print_r($r);
  ?>
